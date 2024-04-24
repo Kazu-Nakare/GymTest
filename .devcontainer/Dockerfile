@@ -25,6 +25,7 @@ RUN apt update && apt install -y --no-install-recommends \
     curl \
     git \
     git-lfs \
+    g++ \
     xvfb \
     x11vnc \
     icewm \
