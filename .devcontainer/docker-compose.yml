@@ -1,8 +1,8 @@
 version: '3'
 services:
   playground:
-    container_name: 'MA_Minigrid_Container'
-    hostname: 'MA_Minigrid_Container'
+    container_name: 'GymTestContainer'
+    hostname: 'GymTestContainer'
     build: .
     restart: always
     working_dir: '/workspace'
@@ -11,4 +11,3 @@ services:
       - type: bind
         source: ..
         target: /workspace
-    runtime: nvidia

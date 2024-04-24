@@ -1,5 +1,5 @@
 {
-  "name": "MA_minigrid - DevContainer",
+  "name": "GymTest - DevContainer",
   "dockerComposeFile": "docker-compose.yml",
   "service": "playground",
   "workspaceFolder": "/workspace",

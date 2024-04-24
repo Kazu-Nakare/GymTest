@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/pytorch:23.07-py3
+FROM python:3.10-slim
 
 # ユーザ'vscode'を作成する
 ARG USERNAME=vscode
