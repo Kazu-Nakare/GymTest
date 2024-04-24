@@ -38,4 +38,4 @@ ENV DISPLAY :0
 
 ENV PATH $PATH:/home/$USERNAME/.local/bin
 RUN pip install -U pip setuptools
-RUN pip install pipreqs
+RUN pip install pipreqs swig
