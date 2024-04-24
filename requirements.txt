@@ -1,0 +1,14 @@
+gymnasium==0.29.1
+matplotlib==3.7.2
+minigrid==2.3.1
+numpy==1.22.2
+opencv==4.7.0
+opencv_python==4.8.0.74
+pettingzoo==1.24.1
+pygame==2.5.2
+stable_baselines3==2.1.0
+SuperSuit==3.9.0
+torch==2.1.0a0+b5021ba
+moviepy==1.0.3
+pillow==10.1.0
+types-PyYAML==6.0.12.12

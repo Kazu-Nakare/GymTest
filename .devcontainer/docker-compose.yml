@@ -1,0 +1,14 @@
+version: '3'
+services:
+  playground:
+    container_name: 'MA_Minigrid_Container'
+    hostname: 'MA_Minigrid_Container'
+    build: .
+    restart: always
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspace
+    runtime: nvidia

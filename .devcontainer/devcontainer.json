@@ -1,0 +1,30 @@
+{
+  "name": "MA_minigrid - DevContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "playground",
+  "workspaceFolder": "/workspace",
+  "remoteEnv": {
+    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
+  },
+  "remoteUser": "vscode",
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "ms-python.python",
+        "charliermarsh.ruff",
+        "njpwerner.autodocstring",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": ". .devcontainer/postCreate.sh",
+  "postAttachCommand": "nohup bash -c 'source .devcontainer/postAttach.sh &'",
+  "forwardPorts": [
+    5900,
+    5900
+  ]
+}
